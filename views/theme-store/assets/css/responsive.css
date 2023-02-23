@@ -1,0 +1,66 @@
+header .header-content .logo{position: relative;float: left;width: 150px;padding:8px 0;}
+header .header-content .search{position: relative;float: left;width: 350px;padding:10px 0;}
+header .search .form-search{border:0;}
+header .header-content .search form{max-width: 80%;margin:0 auto ;padding:10px 0;}
+header .header-content .navigation {position: inherit;float: left;}
+header .header-content .navigation .navbar{position: inherit;}
+header .header-content{position: relative;}
+header.fixed  .widget_box_item_2{display: none;}
+.products-detail .tab-content iframe{max-width:100% !important;}
+header .header-content .navigation .user{    padding: 20px 0px;width: 120px;line-height: 16px;}
+header .header-content .navigation .user .img{position: relative;float: left;width: 40px;}
+header .header-content .navigation .user .nd{position: relative;float: left;width: 80px;padding-top: 5px;}
+header .search .form-search .btn-search{line-height: 40px;border-radius: 0 10px 10px 0;}
+header .search .form-search .form-group .form-control{height: 40px;background-color: #fff;color:#000;border-radius: 10px 0 0 10px;}
+.header-mobile{display: none;}
+.navigation .navbar-nav > li > a{font-size: 14px;}
+header .header-content .navigation .user .nd a{font-size: 14px;color:#fff;font-size: 12px;}
+.navigation .navbar-nav > li > a::after{height: 0 !important;}
+.btn-cart-top-fix{position: fixed;z-index: 999;right:0;top: 20%;}
+footer p{margin-bottom: 0;}
+.navigation .navbar-nav > li.dropdown_product  > .dropdown-menu{width: 100%;padding-left: 5%;padding-right: 5%;background-color: transparent !important;    box-shadow: 0 0 0 transparent; border:0;}
+.navigation .navbar-nav > li.dropdown_product  .dropdown-menu .box-content{background-color: #063ff7;    box-shadow: 0 6px 12px rgba(0,0,0,.175);    border: 1px solid rgba(0,0,0,.15);}
+.navigation .navbar-nav > li.dropdown_product  .dropdown-menu .box-content a{color:#fff;display: block;width: 100%;padding:3px 5px;}
+.navigation .navbar-nav > li.dropdown_product  .dropdown-menu  .dropdown-menu a{color:#000;}
+.navigation .navbar-nav > li.dropdown_product .dropdown-menu .box-content .dropdown.open  > a  {color:#000;}
+.navigation .navbar-nav > li.dropdown_product  .dropdown-menu .box-content a:hover{color:#000;}
+.navigation .navbar-nav > li.dropdown_product  .dropdown-menu .box-content div[class ^='col-']{padding:0;}
+.footer-social{position: fixed;z-index: 99;left: 0;width: 40px;float: left;top: 40%;}
+.ppocta-ft-fix{display: none;}
+@media(max-width: 1199px){
+	.navigation .navbar-nav > li > a{font-size: 12px;}
+	header .header-content .logo{width: 120px;padding:8px 0;}
+		.product-slider-horizontal .item .img{height: 140px;}
+header .header-content .search{width: 300px;padding:8px 0;}
+.container{width: 100%;}
+}
+@media(max-width: 991px){
+	.row{margin: 0 !important;}
+	.btn-cart-top-fix{display: none !important;}
+	header{display: none;}
+	.header-mobile{display: block;background-color:rgb(255, 204, 0);}
+	.header-mobile .logo{text-align: center;}
+	.product-slider-horizontal .item .img{height: 230px;}
+	.product-slider-horizontal .item .img img{min-height: 100%;}	
+}
+@media(max-width: 767px){
+	.ppocta-ft-fix{display: block;}
+.container{padding:0 5px;}
+.product-slider-horizontal h2.header{font-size: 12pt !important;}
+footer h2.header, footer h3.header, footer .header-title h3.header{font-size: 15pt !important;}
+}
+@media(max-width: 500px){
+	.products-detail .breadcrumb{display:none;}
+	.footer-social{display: none;}
+		.widget_box_post_news .item .title .excerpt{max-height: inherit !important;}
+		.product-slider-horizontal .item .img{height: 150px;}
+		.header-mobile .cart-mobile img{height: 30px;}
+		.header-mobile .cart-mobile{padding-top:5px ;}
+		.product-slider-horizontal .item .title h3{font-size: 11px !important;line-height: 14px !important;height: 35px;}
+		.product-slider-horizontal .item .title .item-pr-price .product-item-price{font-size: 13px;}
+		.widget_box_post_news .right .ticker3 .innerWrap .list a.xemthem{display: none !important;}
+		footer h2.header, footer h3.header, footer .header-title h3.header{font-size: 13pt !important;}
+		.widget_product.product-slider-horizontal .header-title .right {display: none !important;}
+
+}
+
